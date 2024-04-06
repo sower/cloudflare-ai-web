@@ -124,6 +124,7 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }]
+    .filter(e => e.provider === 'workers-ai')
 
 export const imageGenModels: Model[] = [{
     id: '@cf/lykon/dreamshaper-8-lcm',

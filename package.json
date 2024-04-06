@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build --preset=vercel_edge",
-    "build_node": "nuxt build",
+    "build": "nuxt build",
+    "build_vercel": "nuxt build --preset=vercel_edge",
+    "build_netlify": "nuxt build --preset=netlify_edge",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
